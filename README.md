@@ -110,15 +110,7 @@ make
 - ✅ Inference speed improved by **X times** with TensorRT.  
 - ✅ Successfully deployed inference in **C++** for real-time detection.  
 
-
-
-## 🖼 **Sample Output**
-| Input Image | Detection Result |
-|-------------|------------------|
-| ![input](results/input.jpg) | ![output](results/output.jpg) |
-
 ---
-
 ## 🚀 **How to Run**
 
 ### 🔹 Training
@@ -131,3 +123,4 @@ python tools/train.py -c configs/rtdetr_r50vd_6x_coco.yml
 - [RT-DETR GitHub](https://github.com/lyuwenyu/RT-DETR)  
 - [YOLOv8-TensorRT GitHub](https://github.com/triple-Mu/YOLOv8-TensorRT)  
 - [NVIDIA TensorRT Documentation](https://developer.nvidia.com/tensorrt)  
+
